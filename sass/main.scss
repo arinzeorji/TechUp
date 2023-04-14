@@ -1,0 +1,31 @@
+// abstract scss
+@import "./abstract/functions";
+@import "./abstract/maxins";
+@import "./abstract/variables";
+
+//base scss
+@import "./base/animations";
+@import "./base/base";
+@import "./base/typography";
+@import "./base/utilities";
+
+//pages scss
+@import "./pages/home";
+
+//layouts
+@import "./layouts/header";
+@import "./layouts/grid";
+@import "./layouts/footer";
+@import "./layouts/navigation";
+
+//components
+@import "./components/form";
+@import "./components/btn";
+@import "./components/cards";
+@import "./components/composition";
+@import "./components/feature_box";
+@import "./components/story";
+@import "./components/video";
+@import "./components/popup";
+
+
